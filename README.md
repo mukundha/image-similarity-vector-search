@@ -4,7 +4,7 @@ Demonstrate Datastax [Astra's](https://docs.datastax.com/en/astra-serverless/doc
 
 ## Demo
 
-https://github.com/mukundha/image-similarity-vector-search/assets/1277515/6846ef4e-beee-4b05-a50a-edec66d6df9f
+https://github.com/mukundha/image-similarity-vector-search/assets/1277515/c543887d-ea5e-472a-ac0d-1e0009e24586
 
 
 Click [here](https://mukundha.web.app/) for a live demo. Try it on your mobile.
