@@ -4,7 +4,12 @@ Demonstrate Datastax [Astra's](https://docs.datastax.com/en/astra-serverless/doc
 
 ## Demo
 
-Click [here](https://mukundha.web.app/) for a live demo.
+https://github.com/mukundha/image-similarity-vector-search/assets/1277515/6846ef4e-beee-4b05-a50a-edec66d6df9f
+
+
+Click [here](https://mukundha.web.app/) for a live demo. Try it on your mobile.
+
+--- 
 
 Follow along to setup this demo yourself and learn how to do image similarity with Vector search
 
