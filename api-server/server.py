@@ -41,7 +41,7 @@ def upload_photo():
     embedding = np.array(embedding[0])
     embedding_list = embedding.tolist()
 
-    q1 = f"SELECT * from amazon_products order by image_embedding ANN OF {embedding_list} LIMIT 5"
+    q1 = f"SELECT * from {table_name} order by image_embedding ANN OF {embedding_list} LIMIT 5"
     rs1 = session.execute(q1)
     response = []
     for r in rs1:

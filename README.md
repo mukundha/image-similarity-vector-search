@@ -2,6 +2,12 @@
 
 Demonstrate Datastax [Astra's](https://docs.datastax.com/en/astra-serverless/docs/vector-search/overview.html) Vector search with Image similarity search using Amazon Berkeley Objects (ABO) Dataset
 
+## Demo
+
+Click [here](https://mukundha.web.app/) for a live demo.
+
+Follow along to setup this demo yourself and learn how to do image similarity with Vector search
+
 This repository includes 3 sections 
 
 1. Data processing
@@ -139,7 +145,7 @@ Content-type: application/json
 {"photoData":"data:image/jpeg;base64,xxxxx..."}
 ```
 
-Response
+Response: Similar Images
 ```
 [
     {
@@ -170,6 +176,11 @@ Response
 ]
 ```
 
+Query
+```
+f"SELECT * from {table_name} order by image_embedding ANN OF {input_image_vector} LIMIT 5"
+```
+
 Code: `api-server/server.py`
 
 ---
@@ -194,7 +205,7 @@ npm start
 | Description | Credit |
 |---|---|
 | Credit for the data, including all images and 3D models| Amazon.com |
-|Credit for building the dataset, archives and benchmark sets| <p> Jasmine Collins <p> Shubham Goel <p> Kenan Deng, <p> Achleshwar Luthra, <p> Leon Xu,<p> Erhan Gundogdu,<p> Xi Zhang, <p> Tomas F. Yago Vicente, <p> Thomas Dideriksen,<p> Himanshu Arora, <p> Matthieu Guillaumin,<p> Jitendra Malik<p> **UC Berkeley, Amazon, BITS Pilani**
+|Credit for building the dataset, archives and benchmark sets| <p> Jasmine Collins <p> Shubham Goel <p> Kenan Deng <p> Achleshwar Luthra <p> Leon Xu <p> Erhan Gundogdu <p> Xi Zhang <p> Tomas F. Yago Vicente <p> Thomas Dideriksen <p> Himanshu Arora <p> Matthieu Guillaumin<p> Jitendra Malik<p> **UC Berkeley, Amazon, BITS Pilani**
 
 
 ### Citation
