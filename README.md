@@ -187,6 +187,7 @@ const response = await axios.post('<api-server>/upload', { photoData });
 ```
 npm start
 ```
+--- 
 
 ### Attribution
 
@@ -194,7 +195,7 @@ npm start
 |---|---|
 | Credit for the data, including all images and 3D models| Amazon.com |
 |Credit for building the dataset, archives and benchmark sets| <p> Jasmine Collins <p> Shubham Goel <p> Kenan Deng, <p> Achleshwar Luthra, <p> Leon Xu,<p> Erhan Gundogdu,<p> Xi Zhang, <p> Tomas F. Yago Vicente, <p> Thomas Dideriksen,<p> Himanshu Arora, <p> Matthieu Guillaumin,<p> Jitendra Malik<p> **UC Berkeley, Amazon, BITS Pilani**
-```
+
 
 ### Citation
 
